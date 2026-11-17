@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadata -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="final.css">
+    <script src="https://kit.fontawesome.com/04d335914c.js" crossorigin="anonymous"></script>
+    <title>Portfolio</title>
+</head>
+
+<body class="bg-slate-950">
+
+    <!-- Header -->
+    <header class="fixed top-4 left-0 right-0 mx-auto w-[90%] max-w-5xl rounded-2xl bg-slate-900/90 border border-slate-600/50 shadow-lg shadow-slate-500/30">
+        
+        <div class="mx-auto flex max-w-6xl flex-col items-center gap-4 px-5 py-3 md:flex-row md:justify-between">
+            
+            <!-- Portfolio Name -->
+            <div class="flex gap-2">
+            <i class="fa-solid fa-gem fa-bounce my-auto" style="color: rgb(116, 192, 252);"></i>
+            <h1 class="text-base md:text-lg font-bold text-white">PORTFOLIO</h1>
+            </div>
+            
+            <!-- Navigation -->
+            <nav class="flex flex-wrap justify-center items-center gap-x-6 md:gap-x-11 gap-y-2 text-sm md:text-lg font-medium">
+                <a href="#home" class="text-slate-300 hover:text-white hover:bg-blue-400 hover:rounded-2xl hover:px-2 hover:py-1 transition-all duration-300">
+                    <i class="fa-solid fa-house" style="color: rgb(20, 106, 235);"></i>
+                    Home
+                </a>
+
+                <a href="#about" class="text-slate-300 hover:text-white hover:bg-blue-500 hover:rounded-2xl hover:px-2 hover:py-1 transition-all duration-300">
+                    <i class="fa-solid fa-image-portrait" style="color: rgb(20, 106, 235);"></i>
+                    About
+                </a>
+
+                <a href="#skills" class="text-slate-300 hover:text-white hover:bg-blue-500 hover:rounded-2xl hover:px-2 hover:py-1 transition-all duration-300">
+                    <i class="fa-solid fa-code" style="color: rgb(20, 106, 235);"></i>
+                    Skills
+                </a>
+
+                <a href="#projects" class="text-slate-300 hover:text-white hover:bg-blue-500 hover:rounded-2xl hover:px-2 hover:py-1 transition-all duration-300">
+                    <i class="fa-solid fa-folder-open" style="color: rgb(20, 106, 235);"></i>
+                    Projects
+                </a>
+
+                <a href="#contact" class="text-slate-300 hover:text-white hover:bg-blue-500 hover:rounded-2xl hover:px-2 hover:py-1 transition-all duration-300">
+                    <i class="fa-solid fa-envelope" style="color: rgb(20, 106, 235);"></i>
+                    Contact
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="text-white">
+
+        <!-- Home Section -->
+        <section id="home" class="px-5 md:px-20 pt-32 md:pt-25 text-white flex flex-col md:justify-center gap-10 md:gap-20">
+          <div class="flex flex-col md:flex-row justify-center items-center gap-15 md:gap-50">
+            <!-- Introduction -->
+            <div class="flex flex-col items-center md:items-start">
+                <h2 class="text-xs font-mono tracking-widest rounded-2xl bg-slate-900 w-fit max-w-full px-5 py-2 mt-8">
+                    FIRST-YEAR IT STUDENT
+                </h2>
+
+                <h1 class="mt-2 text-3xl md:text-7xl font-bold text-white">
+                    Small Steps.
+                </h1>
+
+                <h1 class="text-3xl md:text-7xl font-bold text-blue-400 my-2">
+                    Big Possibilities.
+                </h1>
+
+                <h2 class="text-2xl md:text-4xl font-bold text-white my-2">
+                    Hi! I am Taganile!
+                </h2>
+
+                <p class="w-full max-w-xl text-base font-mono lg:text-xl text-slate-300 md:text-justify">
+                    I'm exploring the world of Information Technology, one project at a time. Welcome to my space for learning, creating, and growing.
+                </p>
+
+                <!-- Home Buttons -->
+                <div class="flex flex-col md:flex-row mt-4 w-full max-w-lg gap-4">
+                    <a href="#projects" class="text-white text-center text-sm md:text-xl rounded-full bg-blue-500 px-8 py-4 md:p-5 hover:bg-blue-900 md:w-[350px] md:h-[70px] transition-colors duration-300">
+                        Explore Projects
+                        <i class="fa-solid fa-arrow-right-long text-sm md:text-lg ml-2" style="color: rgb(255, 255, 255);"></i>
+                    </a>
+
+                    <a href="#about" class="text-white text-center text-sm md:text-xl rounded-full bg-slate-900 border-1 px-8 py-4 md:p-5 md:w-[250px] md:h-[70px] hover:bg-blue-900 transition-colors duration-300">
+                        About Me
+                    </a>
+                </div>
+            </div>
+
+            <!-- Creative Space Card -->
+            <div class="flex flex-col items-center text-center rounded-3xl border-2 border-blue-600 p-6 bg-slate-900/80 shadow-lg/50 shadow-slate-700 h-130 w-full max-w-[400px]">
+                <div class="flex justify-between w-full">
+                    <i class="fa-solid fa-ellipsis text-5xl -my-4" style="color: rgb(43, 133, 229);"></i>
+                    <h1 class="text-xs font-mono tracking-widest">
+                    MY CREATIVE SPACE
+                    </h1>
+                </div>
+                <hr class="my-2 border-slate-600 w-full">
+
+                <img src="images/Cover.jpg" alt="Profile Picture" class="mt-6 rounded-full mx-auto w-full max-w-[280px] border-4 border-blue-500 shadow-xl/50 shadow-blue-600">
+
+                <h1 class="mt-4 text-xl md:text-2xl tracking-wider font-bold text-center">
+                    MARK JADE TAGANILE
+                </h1>
+
+                <h1 class="text-md md:2xl text-slate-300">
+                    IT Student • Always Learning
+                </h1>
+
+                <h1 class="m-4 text-sm md:text-lg font-bold rounded-full border-3 border-blue-800 w-fit max-w-full px-12 py-1">
+                    My First Portfolio
+                </h1>
+            </div>
+          </div>
+
+          <div class="flex flex-col">
+            <!-- Divider -->
+            <hr class="col-span-full w-full border-slate-600">
+
+            <!-- Learning Steps -->
+            <div class="col-span-full grid w-full grid-cols-3 gap-2 text-center mt-4 md:mt-6">
+
+                <!-- Learn -->
+                <div class="md:flex md:items-center md:justify-center gap-2 ">
+                    <i class="fa-solid fa-book-open text-2xl md:text-4xl p-3"></i>
+
+                    <div class="text-center md:text-left">
+                        <h2 class="text-base md:text-xl font-bold my-1">
+                            <span class="text-blue-500"> 01 </span> <br class="md:hidden"> Learn
+                        </h2>
+
+                        <p class="hidden md:block font-sans text-sm md:text-md">
+                            Explore New Ideas
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Create -->
+                <div class="md:flex md:items-center md:justify-center md:gap-2">
+                    <i class="fa-regular fa-lightbulb text-2xl md:text-4xl p-3"></i>
+
+                    <div class="text-center md:text-left">
+                        <h2 class="text-base md:text-xl font-bold my-1">
+                            <span class="text-blue-500">02 </span><br class="md:hidden"> Create
+                        </h2>
+
+                        <p class="hidden md:block font-sans text-sm md:text-md">
+                            Turn Ideas Into Projects
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Improve -->
+                <div class="md:flex md:items-center md:justify-center md:gap-2">
+                    <i class="fa-solid fa-chart-simple text-2xl md:text-4xl p-3"></i>
+
+                    <div class="text-center md:text-left">
+                        <h2 class="text-base md:text-xl font-bold my-1">
+                            <span class="text-blue-500">03 </span><br class="md:hidden"> Improve
+                        </h2>
+
+                        <p class="hidden md:block font-sans text-sm md:text-md">
+                            Grow With Every Step
+                        </p>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="px-5 md:px-20 pt-32 md:pt-20 lg:mx-auto lg:max-w-7xl text-white">
+
+            <!-- About Heading -->
+            <div class="flex flex-col md:items-start mt-5">
+                <h1 class="text-md md:text-lg font-mono tracking-widest text-blue-500">
+                    A LITTLE ABOUT ME
+                </h1>
+
+                <h1 class="text-2xl md:text-5xl font-bold tracking-wide text-white">
+                    Behind the Portfolio.
+                </h1>
+            </div>
+
+            <!-- About Content -->
+            <div class="flex flex-col md:flex-row gap-6 mt-6 md:mt-8">
+
+                <!-- Profile Card -->
+                <div class="flex flex-col items-center rounded-xl border-2 border-blue-600 p-6 bg-slate-900/80 shadow-lg/50 shadow-slate-700 min-h-120 w-full max-w-[400px]">
+                    <img src="images/2nd.jpg" alt="Profile Picture" class="mt-2 rounded-2xl mx-auto w-full max-w-[280px] border-4 border-blue-500 shadow-xl/50 shadow-blue-600">
+
+                    <h1 class="mt-4 text-xl md:text-2xl font-bold text-center">
+                        MARK JADE TAGANILE
+                    </h1>
+
+                    <h1 class="text-md md:2xl text-slate-300">
+                        First Year IT Student
+                    </h1>
+
+                    <h1 class="mt-2 text-base text-center font-bold rounded-full border-3 border-blue-800 w-fit max-w-full px-12 py-1">
+                        Future Developer
+                    </h1>
+
+                    <h1 class="mt-2 text-base text-center font-bold rounded-full border-3 border-blue-800 w-fit max-w-full px-9 py-1">
+                        Future Programmer
+                    </h1>
+                </div>
+
+                <!-- Biography -->
+                <div class="md:my-auto">
+                    <h1 class="text-xl text-center md:text-left md:text-4xl font-bold text-white">
+                        Hello! I'm Mark Jade Taganile.
+                    </h1>
+
+                    <p class="w-full max-w-xl text-base font-semibold lg:text-xl text-slate-300 text-justify my-6">
+                        I'm a first-year IT student curious about how websites and applications work.
+                    </p>
+
+                    <p class="w-full max-w-xl text-base font-semibold lg:text-xl text-slate-300 text-justify">
+                        I'm learning HTML, CSS, and C through practice and school projects. This portfolio is a collection of what I create and how I improve.
+                    </p>
+
+                    <!-- About Cards -->
+                    <div class="mt-6 flex flex-col gap-4 md:flex-row md:gap-2">
+
+                        <!-- Currently Learning -->
+                        <div class="flex md:flex-col items-center gap-3 rounded-xl border-2 border-slate-600 p-3 w-full min-w-0 justify-items-center text-center">
+                            <i class="fa-solid fa-code text-4xl"></i>
+
+                            <div class="flex flex-col gap-1 flex-wrap justify-items-center text-center">
+                                <p class="font-bold text-lg mb-2">
+                                    CURRENTLY LEARNING
+                                </p>
+
+                                <div class="flex flex-row gap-2 flex-wrap mx-auto justify-center">
+                                    <span class="inline-flex h-8 text-xs items-center justify-center rounded-xl border-2 bg-slate-900 px-3">
+                                        HTML
+                                    </span>
+
+                                    <span class="inline-flex h-8 text-xs items-center justify-center rounded-xl border-2 bg-slate-900 px-3">
+                                        CSS
+                                    </span>
+
+                                    <span class="inline-flex h-8 text-xs items-center justify-center rounded-xl border-2 bg-slate-900 px-3">
+                                        C
+                                    </span>
+
+                                    <span class="inline-flex text-xs h-8 items-center justify-center rounded-xl border-2 bg-slate-900 px-3">
+                                        TAILWIND
+                                    </span>
+
+                                    <span class="inline-flex text-xs h-8 items-center justify-center rounded-xl border-2 bg-slate-900 px-3">
+                                        BOOTSTRAP
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Outside the Screen -->
+                        <div class="flex md:flex-col items-center gap-3 rounded-xl border-2 border-slate-600 p-3 w-full min-w-0 justify-items-center text-center">
+                            <i class="fa-solid fa-gamepad text-4xl"></i>
+
+                            <div class="flex flex-col gap-1 flex-wrap justify-items-center text-center">
+                                <p class="font-bold text-lg mb-2">
+                                    OUTSIDE THE SCREEN
+                                </p>
+
+                                <p class="text-sm md:text-md md:mt-4 font-semibold">
+                                    Gaming, music, and solving problems
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Looking Ahead -->
+                        <div class="flex md:flex-col items-center gap-3 rounded-xl border-2 border-slate-600 p-3 w-full min-w-0 justify-items-center text-center">
+                            <i class="fa-solid fa-bullseye text-4xl"></i>
+
+                            <div class="flex flex-col gap-1 flex-wrap justify-items-center text-center">
+                                <p class="font-bold text-xl mb-2">
+                                    LOOKING AHEAD
+                                </p>
+
+                                <p class="text-sm md:text-md md:mt-4 font-semibold">
+                                    Build useful websites and keep growing
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- My Approach -->
+            <div class="flex flex-col md:flex-row gap-2 md:gap-12 my-10 md:mt-20 rounded-2xl border-slate-600 border-2 p-4 w-full mx-auto">
+                <h1 class="text-2xl md:text-3xl font-bold text-white mx-auto md:m-10">
+                    MY APPROACH
+                </h1>
+
+                <div class="flex flex-col md:flex-row md:gap-8 items-center text-center">
+                    <h1 class="text-lg md:text-lg font-mono tracking-widest">
+                        <i class="fa-solid fa-circle mr-1 md:mr-2 text-xs" style="color: rgb(104, 117, 235);"></i>
+                        Stay Curious
+                    </h1>
+
+                    <h1 class="text-lg md:text-lg font-mono tracking-widest">
+                        <i class="fa-solid fa-circle mr-1 md:mr-2 text-xs" style="color: rgb(104, 117, 235);"></i>
+                        Practice Regularly
+                    </h1>
+
+                    <h1 class="text-lg md:text-lg font-mono tracking-wide">
+                        <i class="fa-solid fa-circle mr-1 md:mr-2 text-xs" style="color: rgb(104, 117, 235);"></i>
+                        Learn from Mistakes
+                    </h1>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="flex flex-col md:mt-auto mx-auto lg:px-20 pt-32 md:pt-20 text-white">
+            <div class="flex flex-col md:my-20">
+                <!-- Skills Heading -->
+                <div class="flex flex-col items-center text-center">
+                    <h1 class="text-lg md:text-3xl font-bold text-blue-500 my-2">
+                        MY TOOLKIT
+                </h1>
+
+                <h1 class="text-4xl md:text-6xl font-bold text-white my-2">
+                    SKILLS I'M <span class="text-blue-300"> BUILDING. </span>
+                </h1>
+
+                <div class="flex flex-col md:flex-row gap-1">
+                    <p class="md:text-xl">
+                        Learning the basics.
+                    </p>
+
+                    <p class="md:text-xl">
+                        Getting better through practice.
+                    </p>
+                </div>
+                </div>
+
+                <!-- Skill Cards -->
+                <div class="flex flex-col md:flex-row flex-wrap p-4 gap-8 mt-4 mx-auto w-full max-w-7xl md:items-center justify-center">
+
+                    <!-- HTML Card -->
+                    <div class="flex flex-col gap-3 w-full md:w-75 min-h-40 rounded-xl border-2 border-slate-600 p-4">
+                        <div class="flex flex-row items-center gap-2">
+                            <i class="fa-brands fa-html5 text-4xl" style="color: rgb(250, 119, 0);"></i>
+
+                            <h1 class="text-2xl font-bold">HTML</h1>
+
+                            <span class="rounded-md bg-blue-950 text-xs p-2 ml-auto">
+                                Learning
+                            </span>
+                        </div>
+
+                        <div>
+                            <p class="text-slate-300 ml-4">
+                                Creating the structure of a webpage.
+                            </p>
+
+                            <div class="flex flex-row gap-3 justify-center mt-2">
+                                <span class="inline-flex text-sm font-mono h-8 items-center justify-center rounded-xl border-1 border-slate-700 bg-slate-900 px-3">
+                                    Headings
+                                </span>
+
+                                <span class="inline-flex text-sm font-mono h-8 items-center justify-center rounded-xl border-1 border-slate-700 bg-slate-900 px-3">
+                                    Links
+                                </span>
+
+                                <span class="inline-flex text-sm font-mono h-8 items-center justify-center rounded-xl border-1 border-slate-700 bg-slate-900 px-3">
+                                    Forms
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CSS Card -->
+                    <div class="flex flex-col gap-3 w-full md:w-75 min-h-40 rounded-xl border-2 border-slate-600 p-4">
+                        <div class="flex flex-row items-center gap-2">
+                            <i class="fa-brands fa-css3 text-4xl" style="color: rgb(60, 62, 233);"></i>
+
+                            <h1 class="text-2xl font-bold">CSS</h1>
+
+                            <span class="rounded-md bg-blue-950 text-xs p-2 ml-auto">
+                                Learning
+                            </span>
+                        </div>
+
+                        <div>
+                            <p class="text-slate-300 ml-4">
+                                Adding style and arranging page layouts.
+                            </p>
+
+                            <div class="flex flex-row gap-4 justify-center mt-2">
+                                <span class="inline-flex text-sm font-mono h-8 items-center justify-center rounded-xl border-1 border-slate-700 bg-slate-900 px-3">
+                                    Design
+                                </span>
+
+                                <span class="inline-flex text-sm font-mono h-8 items-center justify-center rounded-xl border-1 border-slate-700 bg-slate-900 px-3">
+                                    Flexbox
+                                </span>
+
+                                <span class="inline-flex text-sm font-mono h-8 items-center justify-center rounded-xl border-1 border-slate-700 bg-slate-900 px-3">
+                                    Grid
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- C Programming Card -->
+                    <div class="flex flex-col gap-3 w-full md:w-75 min-h-40 rounded-xl border-2 border-slate-600 p-4">
+                        <div class="flex flex-row items-center gap-2">
+                            <i class="fa-solid fa-c text-4xl" style="color: rgb(13, 6, 116);"></i>
+
+                            <h1 class="text-md font-bold">C Programming</h1>
+
+                            <span class="rounded-md bg-blue-950 text-xs p-2 ml-auto">
+                                Learning
+                            </span>
+                        </div>
+
+                        <div>
+                            <p class="text-slate-300 ml-4">
+                                Solving problems with simple programs.
+                            </p>
+
+                            <div class="flex flex-row gap-4 justify-center mt-2">
+                                <span class="inline-flex text-sm font-mono h-8 items-center justify-center rounded-xl border-1 border-slate-700 bg-slate-900 px-3">
+                                    Loops
+                                </span>
+
+                                <span class="inline-flex text-sm font-mono h-8 items-center justify-center rounded-xl border-1 border-slate-700 bg-slate-900 px-3">
+                                    Arrays
+                                </span>
+
+                                <span class="inline-flex text-sm font-mono h-8 items-center justify-center rounded-xl border-1 border-slate-700 bg-slate-900 px-3">
+                                    Functions
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tailwind CSS Card -->
+                    <div class="flex flex-col gap-3 w-full md:w-75 min-h-40 rounded-xl border-2 border-slate-600 p-4">
+                        <div class="flex flex-row items-center gap-2">
+                            <i class="fa-brands fa-tailwind-css text-4xl" style="color: rgb(116, 192, 252);"></i>
+
+                            <h1 class="text-xl font-bold">Tailwind CSS</h1>
+
+                            <span class="rounded-md bg-blue-950 text-xs p-2 ml-auto">
+                                Learning
+                            </span>
+                        </div>
+
+                        <div>
+                            <p class="text-slate-300 ml-4">
+                                Styling webpages using utility classes.
+                            </p>
+
+                            <div class="flex flex-row gap-4 justify-center mt-2">
+                                <span class="inline-flex text-sm font-mono h-8 items-center justify-center rounded-xl border-1 border-slate-700 bg-slate-900 px-3">
+                                    Layout
+                                </span>
+
+                                <span class="inline-flex text-sm font-mono h-8 items-center justify-center rounded-xl border-1 border-slate-700 bg-slate-900 px-3">
+                                    Design
+                                </span>
+
+                                <span class="inline-flex text-xs font-mono h-8 items-center justify-center rounded-xl border-1 border-slate-700 bg-slate-900 px-3">
+                                    Responsive
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Bootstrap Card -->
+                    <div class="flex flex-col gap-3 w-full md:w-75 min-h-40 rounded-xl border-2 border-slate-600 p-4">
+                        <div class="flex flex-row items-center gap-2">
+                            <i class="fa-brands fa-bootstrap text-4xl" style="color: rgb(107, 66, 229);"></i>
+
+                            <h1 class="text-xl font-bold">Bootstrap</h1>
+
+                            <span class="rounded-md bg-blue-950 text-xs p-2 ml-auto">
+                                Learning
+                            </span>
+                        </div>
+
+                        <div>
+                            <p class="text-slate-300 ml-4">
+                                Building layouts with ready-made components.
+                            </p>
+
+                            <div class="flex flex-row gap-4 mt-2 justify-center">
+                                <span class="inline-flex text-sm font-mono h-8 items-center justify-center rounded-xl border-1 border-slate-700 bg-slate-900 px-3">
+                                    Grid
+                                </span>
+
+                                <span class="inline-flex text-sm font-mono h-8 items-center justify-center rounded-xl border-1 border-slate-700 bg-slate-900 px-3">
+                                    Buttons
+                                </span>
+
+                                <span class="inline-flex text-sm font-mono h-8 items-center justify-center rounded-xl border-1 border-slate-700 bg-slate-900 px-3">
+                                    Navbar
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Always Learning Banner -->
+            <div class="flex flex-col items-center text-center mt-10">
+                <h2 class="text-sm md:text-lg font-bold rounded-2xl bg-[#2e15dcff] w-fit max-w-full px-6 py-1 text-center">
+                    ALWAYS LEARNING
+                </h2>
+
+                <i class="fa-solid fa-book-open-reader text-7xl md:text-9xl mt-4" style="color: rgb(25, 141, 232);"></i>
+
+                <h1 class="text-xl md:text-4xl text-white font-bold tracking-wider mt-2 md:my-2">
+                    LEARNING TODAY
+                </h1>
+
+                <h1 class="text-xl md:text-4xl font-bold tracking-wider text-blue-400 md:my-2">
+                    BUILDING TOMORROW.
+                </h1>
+
+                <p class="text-sm md:text-xl font-mono tracking-widest text-center">
+                    Every lessons and projects help me improve, one skill at a time.
+                </p>
+
+                <!-- Learning Tags -->
+                <div class="flex flex-row flex-wrap gap-2 md:gap-8 mt-4">
+                    <span class="inline-flex text-xs md:text-xl items-center justify-center rounded-full border-1 bg-slate-900 py-1 px-5">
+                        <i class="fa-solid fa-magnifying-glass mr-1 md:mr-2 text-xs" style="color: rgb(104, 117, 235);"></i>
+                        Explore
+                    </span>
+
+                    <span class="inline-flex text-xs md:text-xl items-center justify-center rounded-full border-1 bg-slate-900 py-1 px-5">
+                        <i class="fa-solid fa-code mr-1 md:mr-2 text-xs" style="color: rgb(104, 117, 235);"></i>
+                        Practice
+                    </span>
+
+                    <span class="inline-flex text-xs md:text-xl items-center justify-center text-center rounded-full border-1 bg-slate-900 py-1 px-5">
+                        <i class="fa-solid fa-pencil mr-1 md:mr-2 text-xs" style="color: rgb(104, 117, 235);"></i>
+                        Create
+                    </span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="px-5 md:px-20 lg:px-20 pt-32 md:pt-20 text-white ">
+
+            <!-- Projects Heading -->
+            <div class="flex flex-col items-center text-center mt-4 md:mt-6">
+                <h1 class="text-lg md:text-3xl font-bold tracking-widest text-blue-500 mt-2">
+                    LEARNING THROUGH PROJECTS
+                </h1>
+
+                <h1 class="text-2xl md:text-6xl font-bold text-white mt-1 mb-2">
+                    From Practice to <span class="text-blue-300"> Projects. </span>
+                </h1>
+
+                <p class="md:text-xl text-sm">
+                    A collection of small builds and lessons along the way.
+                </p>
+            </div>
+
+            <!-- Project Cards -->
+            <div class="flex flex-col md:flex-row gap-8 mt-8 justify-center">
+
+                <!-- Personal Portfolio Project -->
+                <div class="flex flex-col rounded-xl border-2 border-blue-600 px-6 py-4 bg-slate-900/80 shadow-lg/50 shadow-slate-700 min-h-90 w-full max-w-[400px]">
+                    <img src="images/website.jpg" alt="Profile Picture" class="mt-1 rounded-2xl border-1 border-blue-900 w-full max-h-[170px]">
+
+                    <h1 class="text-md md:2xl text-violet-400 font-bold mt-4">
+                        WEB DESIGN
+                    </h1>
+
+                    <h1 class="text-xl md:text-2xl font-bold">
+                        PERSONAL PORTFOLIO
+                    </h1>
+
+                    <p class="text-xs md:text-lg">
+                        A space to share my work and learning journey.
+                    </p>
+
+                    <div class="flex flex-row flex-wrap gap-2 mt-4">
+                        <span class="inline-flex text-xs md:text-md h-8 items-center justify-center rounded-xl bg-slate-700 px-3">
+                            HTML
+                        </span>
+
+                        <span class="inline-flex text-xs md:text-md h-8 items-center justify-center rounded-xl bg-slate-700 px-3">
+                            CSS
+                        </span>
+
+                        <span class="inline-flex text-xs md:text-md h-8 items-center justify-center text-center rounded-xl bg-slate-700 py-3 px-3">
+                            TAILWIND CSS
+                        </span>
+                    </div>
+
+                    <a href="#home" class="text-white text-center font-bold text-sm md:text-lg mt-4 rounded-lg bg-slate-800 px-8 py-2 md:px-10 md:py-3 hover:bg-blue-600 transition-colors duration-300">
+                        View Project
+                        <i class="fa-solid fa-arrow-right-long text-sm md:text-lg ml-2" style="color: rgb(255, 255, 255);"></i>
+                    </a>
+                </div>
+
+                <!-- C Programming Project -->
+                <div class="flex flex-col rounded-xl border-2 border-blue-600 px-6 py-4 bg-slate-900/80 shadow-lg/50 shadow-slate-700 min-h-90 w-full max-w-[400px]">
+                    <img src="images/prog.png" alt="Profile Picture" class="mt-2 rounded-2xl border-1 border-blue-900 w-full max-h-[170px]">
+
+                    <h1 class="text-md md:2xl text-violet-400 font-bold mt-4">
+                        C PROGRAMMING
+                    </h1>
+
+                    <h1 class="text-md md:text-xl font-bold">
+                        PROBLEM-SOLVING ACTIVITIES
+                    </h1>
+
+                    <p class="text-xs md:text-lg">
+                        Activities to expand basic knowledge of the fundamentals.
+                    </p>
+
+                    <div class="flex flex-row gap-4 mt-4">
+                        <span class="inline-flex text-sm md:text-md h-8 items-center justify-center rounded-xl bg-slate-700 px-3">
+                            C
+                        </span>
+
+                        <span class="inline-flex text-xs md:text-md h-8 items-center justify-center rounded-xl bg-slate-700 px-3">
+                            CRITICAL THINKING
+                        </span>
+                    </div>
+
+                    <a href="https://drive.google.com/drive/folders/1hsKsADfo6OqXBTkYNb9VWJNKXlG_IjlP" target="_blank" class="text-white text-center font-bold text-sm md:text-lg mt-4 rounded-lg bg-slate-800 px-8 py-2 md:px-10 md:py-3 hover:bg-blue-600 transition-colors duration-300">
+                        View Project
+                        <i class="fa-solid fa-arrow-right-long text-sm md:text-lg ml-2" style="color: rgb(255, 255, 255);"></i>
+                    </a>
+                </div>
+
+                <!-- Video Editing Project -->
+                <div class="flex flex-col rounded-xl border-2 border-blue-600 px-6 py-4 bg-slate-900/80 shadow-lg/50 shadow-slate-700 min-h-90 w-full max-w-[400px]">
+                    <img src="images/video.jpg" alt="Profile Picture" class="mt-2 rounded-2xl border-1 border-blue-900 w-full max-h-[170px]">
+
+                    <h1 class="text-md md:2xl text-violet-400 font-bold mt-4">
+                        VIDEO EDITING
+                    </h1>
+
+                    <h1 class="text-md md:text-xl font-bold">
+                        AUTOMATING CONCERT TICKET
+                    </h1>
+
+                    <p class="text-xs md:text-lg">
+                        A creative video edit showcasing concert ticket automation.
+                    </p>
+
+                    <div class="flex flex-row flex-wrap gap-2 mt-4">
+                        <span class="inline-flex text-xs md:text-md h-8 items-center justify-center rounded-xl bg-slate-700 px-3">
+                            EDITING
+                        </span>
+
+                        <span class="inline-flex text-xs md:text-md h-8 items-center justify-center rounded-xl bg-slate-700 px-3">
+                            AUTOMATION
+                        </span>
+                    </div>
+
+                    <a href="https://www.youtube.com/embed/DHx6imnO0xs?si=TPbwV4dB5kDpYogW" target="_blank"
+                        class="text-white text-center font-bold text-sm md:text-lg mt-4 rounded-lg bg-slate-800 px-8 py-2 md:px-10 md:py-3 hover:bg-blue-600 transition-colors duration-300">
+                        View Project
+                        <i class="fa-solid fa-arrow-right-long text-sm md:text-lg ml-2" style="color: rgb(255, 255, 255);"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Under Construction Banner -->
+            <div class="flex flex-col items-center text-center md:mt-35 mt-15">
+                <h2 class="text-sm md:text-lg font-bold rounded-2xl bg-slate-900 w-fit max-w-full px-5 py-1 text-center border-2 border-blue-700">
+                    WORK IN PROGRESS
+                </h2>
+
+                <i class="fa-solid fa-road-barrier text-7xl md:text-9xl" style="color: rgb(255, 212, 59);"> </i>
+
+                <h1 class="text-3xl md:text-6xl font-bold text-white mt-2 md:my-2">
+                    MORE PROJECTS
+                </h1>
+
+                <h1 class="text-2xl md:text-6xl font-bold text-blue-400 md:my-2">
+                    UNDER CONSTRUCTION.
+                </h1>
+
+                <p class="text-xs md:text-xl text-center mt-2">
+                    I'm learning, building, and working on new ideas. More projects will be added soon!
+                </p>
+
+                <!-- Progress Tags -->
+                <div class="flex flex-row flex-wrap gap-2 md:gap-8 mt-4">
+                    <span class="inline-flex text-xs md:text-xl items-center justify-center rounded-full border-1 bg-slate-900 py-2 px-3">
+                        <i class="fa-solid fa-circle mr-1 md:mr-2 text-xs" style="color: rgb(104, 117, 235);"></i>
+                        Learning
+                    </span>
+
+                    <span class="inline-flex text-xs md:text-xl items-center justify-center rounded-full border-1 bg-slate-900 py-2 px-3">
+                        <i class="fa-solid fa-circle mr-1 md:mr-2 text-xs" style="color: rgb(104, 117, 235);"></i>
+                        Building
+                    </span>
+
+                    <span class="inline-flex text-xs md:text-xl items-center justify-center text-center rounded-full border-1 bg-slate-900 py-2 px-3">
+                        <i class="fa-solid fa-circle mr-1 md:mr-3 text-xs" style="color: rgb(104, 117, 235);"></i>
+                        Improving
+                    </span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="flex flex-col md:justify-center text-center px-5 md:px-20 pt-32 md:pt-20 text-white">
+
+            <!-- Contact Heading -->
+            <div>
+                <h1 class="text-md md:text-2xl font-bold text-blue-500 mt-6">
+                    ———— <span class="mx-4 text-md md:text-3xl"> LET'S CONNECT </span> ————
+                </h1>
+
+                <h1 class="text-3xl md:text-6xl font-bold text-white mt-2 mb-0">
+                    Your next message
+                </h1>
+
+                <h1 class="text-3xl md:text-6xl font-bold text-blue-300 mb-2">
+                    could be the start of something great.
+                </h1>
+
+                <p class="md:text-lg text-sm">
+                    Have an idea, a question, or feedback on my work? I'd love to hear from you.
+                </p>
+
+                <!-- Email Button -->
+                <a href="mailto:markjadetaganile123@gmail.com" target="_blank"
+                    class="inline-flex items-center justify-center gap-2 text-white text-center font-bold text-md md:text-xl rounded-full bg-blue-500 px-6 py-2 md:px-10 md:py-6 hover:bg-blue-900 transition-colors duration-300 mt-6">
+                    <i class="fa-solid fa-envelope text-lg md:text-3xl" style="color: rgb(255, 255, 255);"></i>
+                    Say Hello
+                    <i class="fa-solid fa-arrow-right-long text-sm md:text-lg ml-2" style="color: rgb(255, 255, 255);"></i>
+                </a>
+
+                <!-- Social Links Heading -->
+                <h1 class="text-blue-800 text-xs md:text-md font-bold mt-6">
+                    ———— <span class="mx-2 font-bold text-white text-md md:text-lg"> Or find me here </span> ————
+                </h1>
+            </div>
+
+            <!-- Social Links -->
+            <div class="share flex flex-row mt-6 justify-center md:gap-[16px]">
+
+                <!-- GitHub -->
+                <a class="gh w-[46px] h-[46px] md:w-[90px] md:h-[90px] md:px-8" href="https://github.com/Tetsuyaa27" target="_blank">
+                    <i class="fa-brands fa-github md:text-3xl"></i>
+                </a>
+
+                <!-- Facebook -->
+                <a class="fb w-[46px] h-[46px] md:w-[90px] md:h-[90px] md:px-8" href="https://web.facebook.com/markjade.taganile.33/" target="_blank">
+                    <i class="fa-brands fa-facebook md:text-3xl"></i>
+                </a>
+
+                <!-- Instagram -->
+                <a class="ig w-[46px] h-[46px] md:w-[90px] md:h-[90px] md:px-8" href="https://www.instagram.com/z.phhyr?rpxt=MW53ODN6dmtrejZwYw==" target="_blank">
+                    <i class="fa-brands fa-instagram md:text-3xl"></i>
+                </a>
+
+                <!-- TikTok -->
+                <a class="tt w-[46px] h-[46px] md:w-[90px] md:h-[90px] md:px-2" href="https://www.tiktok.com/@kiritoo_10?_r=1&_t=ZS-9B9RXiXt6oy" target="_blank">
+                    <i class="fa-brands fa-tiktok md:text-3xl"></i>
+                </a>
+
+                <!-- YouTube -->
+                <a class="yt w-[46px] h-[46px] md:w-[90px] md:h-[90px] md:px-2" href="https://youtube.com/@tetsuyyaaa?si=-zeUSQKIbgOG3EWz" target="_blank">
+                    <i class="fa-brands fa-youtube md:text-3xl"></i>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-slate-600">
+        <div class="mx-auto flex max-w-6xl flex-wrap justify-between md:gap-3 px-6 py-6 text-xs md:text-lg text-slate-300">
+            <p>© 2026 Mark Jade Taganile</p>
+            <p>Student Portfolio</p>
+        </div>
+    </footer>
+
+</body>
+</html>
